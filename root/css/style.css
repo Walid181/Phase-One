@@ -1,0 +1,383 @@
+/* Start OUr HOme Page main style sheet Code */
+
+.navbar{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+.colss-2 h1{
+    font-size: 33px;
+    line-height: 40px;
+    margin: 25px 0;
+    font-weight: 500;
+    color: #fff;
+
+}
+.colss-2 p{
+    font-size: 13.5px;
+    color: #fff;
+}
+.logo img{
+    width: 95px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    scroll-behavior: smooth;
+
+
+}
+nav ul{
+     display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li{
+    display: inline-block;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color:yellowgreen;
+}
+p{
+    color: #fff;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+/* header bg */
+
+.row{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left:30px;
+
+}
+.colss-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.colss-2 img{
+    width:330px;
+    padding:50px 0;
+    margin-left: 150px;
+}
+.colss-2 .btn{
+    border-radius: 10px;
+    border-radius: 24px;
+    width: 150px;
+    color: #fff;
+}
+.colss-2 .btn-primary{
+    background:#F15C33;
+    border:none;
+    outline:inherit;
+}
+.header{
+    background-image: url(https://www.itl.cat/pngfile/big/227-2278023_hd-wallpaper-leo-messi.jpg);
+    background-image: url(https://images.pexels.com/photos/46798/the-ball-stadion-football-the-pitch-46798.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+
+
+}
+
+/* category_section */
+
+.category_section{
+  width: 960px;
+  margin:65px auto;
+  margin-left:65px;
+}
+.category_section img{
+  width:250px;
+}
+.category_section .row{
+  margin-left: 134px;
+}
+/* featured Products */
+h2::after{
+content: "";
+display: block;
+height: 4px;
+width: 116px;
+margin: auto;
+margin-top: 1rem;
+}
+.featured_text h2::after{
+  background-color: #FC6037;
+}
+.boxi{
+width: 960px;
+margin: 58px auto;
+margin-left: 197px;
+
+}
+.box{
+  width:210px;
+  float:left;
+  margin-left: 5px;
+}
+.featured_products p{
+  margin-top: 10px;
+  color: #605b5b;
+}
+.fas{
+    font-weight: 900;
+    color: #FF613B;
+}
+.amra span{
+  position: absolute;
+  top:200%;
+  left: 20%;
+  background: orange;
+}
+/* latest products */
+
+.latest_text h2{
+    margin-top: 354px;
+    margin-left:-627px;
+}
+
+.latest_text h2::after{
+    background-color: #FC6037;
+}
+.latest_text h2::after{
+content: "";
+display: block;
+height: 4px;
+width: 116px;
+margin: auto;
+margin-top: 1rem;
+margin-left: 54px;
+}
+.featured_products img{
+    transition: .7s;
+}
+.featured_products img:hover{
+    margin-top:-25px;
+}
+.boxing{
+    width:880px;
+    margin: 45px auto;
+    margin-left: -39px;
+}
+.boxer{
+    width: 220px;
+    float: left;
+}
+.latest_pro .row{
+  margin-left: 134px;
+
+}
+.boxer p{
+  margin-top: 10px;
+  color: #605b5b;
+}
+.latest_pro img{
+    transition: .7s;
+}
+.latest_pro img:hover{
+
+    border-radius: 0px 40px 0px 40px;
+}
+
+/* smart band section */
+
+#share-main-section{
+   background: #FFDDDA;
+    margin-top: 50px;
+    height: 411px;
+}
+.ml-5, .mx-5 {
+    margin-left: 15rem !important;
+}
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-left: -148px;
+}
+#testimonial{
+    background:#fff;
+}
+.testimonial-item{
+    background: rgba(85, 85, 85, 0.15);
+    width:374px;
+
+}
+.testimonial-item .info h2 {
+    color: aliceblue;
+}
+.ami h2{
+    text-align: center;
+}
+.ami h2::after{
+    background: #FF6138;
+}
+
+/* partner section */
+
+.amra{
+    width:960px;
+    margin: 20px auto;
+    margin-bottom: 55px;
+}
+.amra_img img{
+    width: 200px;
+}
+
+/* footer section */
+
+footer{
+    background: rgba(0, 0, 0, 0.96);
+    height:280px;
+
+}
+footer h5{
+    color:#fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+.footer_bg{
+
+    margin-left:80px;
+    padding: 30px;
+
+}
+.footer_part{
+    width: 233px;
+    float: left;
+    overflow: hidden;
+    margin-right: 69px;
+    margin-top: 33px;
+
+}
+.footer_part img{
+    width:114px;
+    cursor: pointer;
+
+}
+.footer_part p{
+    color:gray;
+    text-align: center;
+}
+.footer_part span{
+    color:gray;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.footer_part span:hover{
+    color:white;
+}
+
+.copy p{
+    text-align: center;
+    background: black;
+    color:#605b5b;
+    padding: 15px;
+    margin-bottom: auto;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* End of Our Main Page style Code */
+
+/* design by shahidul islam khan */
+/* menu */
+
+#menu{
+	padding: 0;
+    list-style-type: none;
+    border-bottom: 5px solid orange;
+    min-height: 38px;
+    margin: 0 auto;
+}
+#menu li{
+	float:left;
+	position:relative;
+	
+}
+
+#menu li:last-child{
+	border-right:none;
+}
+#menu li:first-child{
+	border-left:none;
+}
+#menu li a{
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	display:block;
+	transition:0.3s all ease;
+}
+.jam ul li a{
+    background:#4E4E4E;
+    border-bottom: none;
+}
+#menu li a:hover{
+	background:orange;
+}
+
+
+#menu li ul{
+	list-style-type:none;
+	padding:0;
+	position:absolute;
+	left:-99999px;
+	/*transition:0.5s all ease;*/
+}
+#menu li:hover ul{
+	left:0;
+}
+
+#menu li ul li{
+	float:none;
+	border-right:none;
+	border-left:none;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #fff;	
+	width:200px;
+}
+.maps{
+   vertical-align: bottom;
+}
+.maps h2{
+    text-align: center;
+
+}
+.maps h2::after{
+    background: #FF6138;
+}
+.maps iframe{
+    margin-top: 40px;
+}

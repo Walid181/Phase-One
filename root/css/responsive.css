@@ -1,0 +1,33 @@
+/* for 480 px */
+
+@media only screen and (max-width:480px) {
+  nav {
+    flex: none;
+    text-align: right;
+    scroll-behavior: smooth;
+    float: none;
+    width: 245px;
+    }
+    .colss-2 h1{
+      font-size: 28px;
+    }
+    .colss-2 img {
+    width: 330px;
+    padding: 50px 0;
+    margin-left: -47px;
+    }
+    .category_section {
+    width: 95px;
+    margin: 65px auto;
+    margin-left: -31px;
+    margin-top: 18px;
+  }
+  .category_section img {
+    width: 206px;
+    margin-top: 49px;
+  }
+  .box {
+    float: none;
+    width: 210px;
+    margin-left: -67px;
+}

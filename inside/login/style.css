@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(sky.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: aliceblue;
+    
+}
+.ornob{
+    width: 500px;
+    margin: 40px auto;
+    background:#fff;
+    padding: 55px;
+    
+    
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}

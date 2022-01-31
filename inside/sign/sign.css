@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+h1{
+  text-align: center;
+color: #fff;
+}
+.sign{
+  width: 600px;
+  margin:40px auto;
+  background: #f2f4f4;
+padding: 55px;
+    border-radius:30px;
+}
+body{
+    background-image: url(bg-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
